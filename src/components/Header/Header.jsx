@@ -18,7 +18,7 @@ import { AiOutlineShoppingCart, AiOutlineUser, AiOutlineSearch } from 'react-ico
 * navigation between pages, search bar, and cart and user icons.
 */
 function Header() {
-return (
+    return (
     <header className="header">
         <div className="header__container">
             {/* Logo da livraria com link para a home */}
