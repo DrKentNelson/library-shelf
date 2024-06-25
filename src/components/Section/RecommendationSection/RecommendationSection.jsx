@@ -13,10 +13,10 @@ import React from "react";
 import { AiOutlineBook } from "react-icons/ai";
 
 /**
-* Application QuickSection Component.
+* Application RecommendationSection Component.
 * 
 */
-const QuickSection = ({
+const RecommendationSection = ({
     groups
 }) => {
     return (
@@ -43,4 +43,4 @@ const QuickSection = ({
     );
 }
 
-export default QuickSection;
+export default RecommendationSection;

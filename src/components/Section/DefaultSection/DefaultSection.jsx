@@ -9,6 +9,7 @@
 */
 
 import React from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { AiOutlineSketch } from "react-icons/ai";
 
@@ -45,7 +46,7 @@ const DefaultSection = ({
                         >
                             {
                                 section_books.map((book, index) => (
-                                    <SwiperSlide key={book.id}>
+                                    <SwiperSlide key={index}>
                                         <div className="booksection__card">
                                             <img
                                                 src={book.image}

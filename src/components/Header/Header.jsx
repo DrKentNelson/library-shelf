@@ -9,6 +9,7 @@
 */
 
 import React from 'react';
+
 import { AiOutlineShoppingCart, AiOutlineUser, AiOutlineSearch } from 'react-icons/ai';
 
 /**
